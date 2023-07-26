@@ -1,0 +1,33 @@
+body{
+  margin: 0%;
+}
+.nav_bar{
+  background-color:rgb(36, 31, 31);
+  height: 4rem;
+  margin-bottom: 0%;
+}
+h1{
+  text-align: center;
+  margin-top: 0%;
+  padding-top: 3mm;
+}
+.dec_bar{
+  margin-top: 0%;
+  background-color:grey;
+  height: 4rem;
+}
+button{
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: oblique;
+  color: red;
+  background-color: rgb(36, 31, 31);
+  width: 150px;
+  height: 60px;
+  border: none;
+}
+table{
+  margin-left: 11cm;
+  width: 15cm;
+  height: 10cm;
+}

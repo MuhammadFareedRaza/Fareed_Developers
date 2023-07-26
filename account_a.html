@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link type="text/css" rel="stylesheet" href="style_accounts.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Account</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav_bar">
+        <a href="/a_website.html"><button id="btn_1">GO BACK</button></a>
+      </div>
+      <div class="dec_bar">
+        <h1>Create Your Account on Fareed Developers Official.</h1>
+      </div>
+    </header>
+    <main>
+      <div class="create_account">
+        <form>
+          <input type="text" placeholder="Enter Your Name" /><br />
+          <input type="email" placeholder="Enter your Email" /><br />
+          <input type="text" placeholder="Enter Your Phone number" /><br />
+          <input type="password" placeholder="Enter Password" /><br />
+          <i>Select Your Gender</i><br />
+          <label for="GenderA">
+            <input
+              type="radio"
+              name="Gender"
+              value="Male"
+              id="GenderA"
+              class="Gender"
+            /><p class="Gend">Male</p> </label
+          ><br />
+          <label for="GenderB">
+            <input
+              type="radio"
+              name="Gender"
+              value="Female"
+              id="GenderB"
+              class="Gender"
+            /><p class="Gend">Female</p> </label
+          ><br />
+          <label for="GenderC">
+            <input
+              type="radio"
+              name="Gender"
+              value="Others"
+              id="GenderC"
+              class="Gender"
+            /><p class="Gend">Others</p></label
+          ><br />
+          <label for="country_name">
+            <select name="country" id="country_name">
+              <option value="your_country">Select Your country</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="India">India</option>
+              <option value="Iran">Iran</option>
+              <option value="Turkey">Turkey</option>
+            </select>
+          </label>
+        </form>
+        <a href="a_website.html"><button class="btn_2" onclick="log_in_alert()">Create</button></a>
+        <a href="Log_In_a.html" class="already" style="display: block;">Alreadey Have an account?</a>
+      </div>
+    </main>
+    <footer>
+    </footer>
+    <script>
+      function log_in_alert(){
+        alert("Your account has successfully created.");
+      }
+  </script>
+  </body>
+</html>

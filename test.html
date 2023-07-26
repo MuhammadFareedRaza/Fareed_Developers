@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="test.css">
+  <link
+      rel="shortcut icon"
+      href="calculator.png"
+      type="image/x-icon"
+    />
+  <title>Calculator</title>
+</head>
+<body>
+  <h2> Calculator </h2>
+  <section class="container">
+    <div class="boxes" id="position2">
+      <span>
+        <h3>Other Links</h3>
+      </span>
+      <div>
+        <a href="our_products_a.html"><button class="special_btn" id="go_back">GO BACK</button></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <span>
+        <button class="btn" onclick="num1()">1</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num2()">2</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num3()">3</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num4()">4</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num5()">5</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num6()">6</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num7()">7</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num8()">8</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num9()">9</button>
+      </span>
+      <span>
+        <button class="btn" onclick="num0()">0</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="add()">Add</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="substract()">Substract</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="multiply()">Multiply</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="divide()">Divide</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="confirmed()" id="special">Confirm</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="clear_1()" id="special2">Clear</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="saveans()" id="special3">Save Answer</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="show_answer()" id="special4">Show Answer</button>
+      </span>
+      <span>
+        <button class="btn-opt" onclick="clear_all()" id="special5">Clear clipboard</button>
+      </span>
+  
+    </div>
+
+    <div class="boxes" id="position1">
+      <span>
+        <h3>Answers</h3>
+        <p class="answers" id="text-answers"></p>
+      </span>
+    </div>
+  </section>
+  
+  <script src="test.js"></script>
+</body>
+</html>

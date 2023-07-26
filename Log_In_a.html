@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link type="text/css" rel="stylesheet" href="style_log_in.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LOG IN</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav_bar">
+        <a href="a_website.html"><button id="b_1">BACK TO HOME</button></a>
+      </div>
+      <div class="dec_bar">
+        <h1>LOG IN</h1>
+      </div>
+    </header>
+    <main>
+      <div class="log_in_form">
+        <form>
+          <input class="email" type="email" placeholder="Enter Your Email" /><br />
+          <input class="password" type="password" placeholder="Enter the password" /><br />
+          <input type="Checkbox" />You are not a robot.<br />
+        </form>
+        <a href="a_website.html"><button class="btn_2" id="log_in_btn" onclick="log_in_alert()">LOG IN</button></a>
+      </div>
+    </main>
+    <script>
+      function log_in_alert(){
+        alert("You have successfully signed in.");
+      }
+    </script>
+  </body>
+</html>

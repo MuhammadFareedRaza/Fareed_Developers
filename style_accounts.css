@@ -1,0 +1,54 @@
+.nav_bar{
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(36, 31, 31);
+  margin-bottom: 0%;
+}
+body{
+  margin: 0%;
+}
+#btn_1{
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: oblique;
+  color: red;
+  background-color: rgb(36, 31, 31);
+  width: 150px;
+  height: 60px;
+  border: none;
+}
+.dec_bar{
+  height: 4rem;
+  background-color: grey;
+  text-align: center;
+  margin-top: 0%;
+}
+h1{
+  margin-top: 0%;
+  padding-top: 1rem;
+  color: yellow;
+}
+.create_account{
+    padding-top: 1cm;
+    text-align: center;
+    border-radius: 7mm;
+    height: 9cm;
+    background-color: rgb(194, 184, 184);
+    width: 7cm;
+    margin-left: 14cm;
+    margin-top: 2cm;
+    line-height: 7mm;
+}
+.already{
+  margin: 0%;
+}
+.Gend{
+  display: inline;
+  color: rgb(0, 0, 0);
+}
+.btn_2{
+  width: 100px;
+  height: 50px;
+  border-radius: 2rem;
+  background-color: rgb(212, 212, 34);
+}
